@@ -83,7 +83,7 @@ li {
 	height: 15em;
 	width: 15em;
 	margin-left: 14%;
-	margin-right: 14%;
+	margin-right: auto;
 	content: url("http://upe.berkeley.edu/media/profile_images/Soy%20-%20Courtney%20Vu.jpg");
 	object-fit: cover;
 }
@@ -96,6 +96,7 @@ li {
 
 #right {
 	content: url("./images/la_jolla.JPG");
+	float: right;
 	object-fit: cover;
 }
 
@@ -145,7 +146,7 @@ li {
 }
 
 #proj_right1 {
-	content: url("./images/autocomplete.png");
+	content: url("./images/trie.png");
 	margin: 0 2% 2% 0%;
 	object-fit: cover;
 }
@@ -171,42 +172,43 @@ li {
 #outside_0 {
 	content: url("./images/ramen.jpg");
 	float: right;
-	margin: 6%;
+	margin: 1%;
 	object-fit: cover;
 }
 
 #outside_1 {
 	content: url("./images/bart.jpg");
 	float: right;
-	margin: 6%;
+	margin: 1%;
 	object-fit: cover;
 }
 
 #outside_2 {
 	content: url("./images/salmon.jpg");
 	float: right;
-	margin: 6%;
+	margin: 1%;
 	object-fit: cover;
 }
 
 #outside_3 {
 	content: url("./images/christmas.jpg");
 	float: right;
-	margin: 6%;
+	margin: 1%;
+	margin-right: 5%;
 	object-fit: cover;
 }
 
 #outside_4 {
 	content: url("./images/ice_cream.jpg");
 	float: right;
-	margin: 6%;
+	margin: 1%;
 	object-fit: cover;
 }
 
 #outside_5 {
 	content: url("./images/doge.jpg");
 	float: right;
-	margin: 6%;
+	margin: 1%;
 	object-fit: cover;
 }
 
