@@ -145,7 +145,7 @@ li {
 }
 
 #proj_right1 {
-	content: url("./images/autocomplete.PNG");
+	content: url("./images/autocomplete.png");
 	margin: 0 2% 2% 0%;
 	object-fit: cover;
 }
@@ -168,10 +168,51 @@ li {
 	text-align: left;
 }
 
-#outside_1 {
+#outside_0 {
 	content: url("./images/ramen.jpg");
 	float: right;
+	margin: 6%;
 	object-fit: cover;
 }
 
+#outside_1 {
+	content: url("./images/bart.jpg");
+	float: right;
+	margin: 6%;
+	object-fit: cover;
+}
 
+#outside_2 {
+	content: url("./images/salmon.jpg");
+	float: right;
+	margin: 6%;
+	object-fit: cover;
+}
+
+#outside_3 {
+	content: url("./images/christmas.jpg");
+	float: right;
+	margin: 6%;
+	object-fit: cover;
+}
+
+#outside_4 {
+	content: url("./images/ice_cream.jpg");
+	float: right;
+	margin: 6%;
+	object-fit: cover;
+}
+
+#outside_5 {
+	content: url("./images/doge.jpg");
+	float: right;
+	margin: 6%;
+	object-fit: cover;
+}
+
+#outside_6 {
+	content: url("./images/sd_sea.jpg");
+	float: right;
+	margin: 0%;
+	object-fit: cover;
+}
