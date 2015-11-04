@@ -7,7 +7,7 @@
 
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,300' rel='stylesheet' type='text/css'>
 		<title> Courtney Vu </title>
 	</head>
 
@@ -22,9 +22,10 @@
 
 		<div id = "navbar">
 			<ul>
-				<li> <a href = "#about_me" class = "smoothScroll"> About Me </li>
-				<li> <a href = "#projects" class = "smoothScroll"> Projects </li>
-				<li> <a href = "#cool_stuff" class = "smoothScroll"> Cool Stuff </li>
+				<li> <a href = "#about_me" class = "smoothScroll"> About Me </a> </li>
+				<li> <a href = "#projects" class = "smoothScroll"> Projects </a> </li>
+				<li> <a href = "#code" class = "smoothScroll"> How I Code </a> </li>
+				<li> <a href = "#outside_cs" class = "smoothScroll"> Outside CS </a> </li>
 				<li> <a href = "#contact_me" class = "smoothScroll"> Contact Me </a> </li>
 				<li> <a href = "#top" class="smoothScroll"> Back to Top </a> </li>
 			</ul>
@@ -34,7 +35,7 @@
 			<div class = "info_section" id = "about_me">
 				<a name = "about_me"> </a>
 				<p class = "title"> About Me </p>
-				<div class = "photo" id = "about_left"> <!-- cool photo --> </div>
+				<div class = "photo" id = "about_left"> <!-- Cal photo --> </div>
 				<p class = "blurb"> I'm currently in my second year as an undergrad at UC Berkeley, studying Computer Science (and maybe something else? tbd?). I like when things look nice, so I'm into learning about front-end development and UI/UX. Also into technology and how it can improve the human experience. <br> <br>
 
 				I think customer service is interesting, particularly optimizations of processes, improvements in efficiency, and the personal interactions that machines can never replace. I also think the idea of improving the academic experience for students at such a large university is interesting. </p>
@@ -43,13 +44,34 @@
 			<div class = "info_section" id = "projects">
 				<a name = "projects"> </a>	
 				<p class = "title"> Projects </p>
-				<p class = "blurb"> </p>
+				<div class = "photo" id = "proj_right0"> <!-- logisim photo --> </div>
+				<p class = "blurb_title"> MIPS Assembler/Linker and CPU </p>
+				<p class = "blurb"> C program that parses MIPS pseudo-instructions and translates them into TAL assembly code and hexadecimal machine instructions. The linker (written in MIPS) turns machine instructions into an executable file by relocating symbols. <br> <br>
+
+				Created a virtual central processing unit that takes hexadecimal machine instructions and performs arithmetic, register writes, and memory writes to fully functionally execute MIPS instructions. Pipelined the CPU to increase performance. <br> </p>
+
+				<div class = "photo" id = "proj_right1"> <!-- data photo --> </div>
+				<p class = "blurb"> <br> Java program that alphabetically sorts words in input files given a customizable alphabet. Uses the trie data structure to do so. <br> <br> Using this alphabet, it uses ternary search tries, priority queues, and data on word frequency to find top matches for user-inputted word prefixes (essentially giving autocomplete suggestions). </p>
 			</div>
 
-			<div class = "info_section" id = "cool_stuff">
-				<a name = "cool_stuff"> </a>
-				<p class = "title"> Cool Stuff </p>
-				<p class = "blurb">  </p>
+			<div class = "info_section" id = "code">
+				<a name = "code"> </a>
+				<p class = "title"> How I Code </p>
+				<div class = "photo" id = "code_0"> <!-- code photo --> </div>
+				<p class = "blurb"> Check out my <a href = "https://github.com/vucourtney"> GitHub </a> account here! <br> <br>
+
+				My programming languages of choice are Python and Java, but I'm also very adept at C. <br> <br>
+
+				Proficient in HTML/CSS and Javascript but still learning (such as through improving this website). Also proficient in Latex. <br> <br>
+
+				I'm always looking to learn more... </p>
+			</div>
+
+			<div class = "info_section" id = "outside_cs">
+				<a name = "outside_cs"> </a>
+				<p class = "title"> Outside CS </p>
+				<div class = "photo" id = "outside_1"> <!-- ramen photo --> </div>
+				<p class = "blurb"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 			</div>
 
 			<div class = "info_section" id = "contact_me">

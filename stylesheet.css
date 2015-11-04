@@ -110,13 +110,18 @@ li {
 	display: block;
 	position: relative;
 	background-color: #d8ffd9;
-	padding: 4% 7% 4% 6%;
+	padding: 4% 5% 4% 4%;
 	border-top: 3px solid black;
 }
 
 .title {
 	font-weight: bold;
 	font-size: 150%;
+}
+
+.blurb_title {
+	font-weight: bold;
+	font-size: 120%;
 }
 
 .blurb {
@@ -129,6 +134,19 @@ li {
 
 #about_left {
 	content: url("./images/sproul.JPG");
+	margin-right: 2%;
+	object-fit: cover;
+}
+
+#proj_right0 {
+	content: url("./images/cpu.PNG");
+	float: right;
+	object-fit: cover;
+}
+
+#proj_right1 {
+	content: url("./images/autocomplete.PNG");
+	margin: 0 2% 2% 0%;
 	object-fit: cover;
 }
 
@@ -136,6 +154,24 @@ li {
 	text-align: left;
 }
 
-#cool_stuff {
+#code {
 	text-align: right;
 }
+
+#code_0 {
+	content: url("./images/code.PNG");
+	margin-right: 2%;
+	object-fit: cover;
+}
+
+#outside_cs {
+	text-align: left;
+}
+
+#outside_1 {
+	content: url("./images/ramen.jpg");
+	float: right;
+	object-fit: cover;
+}
+
+
