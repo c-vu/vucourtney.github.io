@@ -75,7 +75,6 @@ li {
 	position: relative;
 	float: left;
 	text-align: center;
-	margin-bottom: 3%;
 	height: 11em;
 	width: 11em;
 	border: 1.5px solid black;
@@ -93,12 +92,12 @@ li {
 
 #left {
 	margin-left: 16%;
-	content: url("images/boston.jpg");
+	content: url("./images/boston.jpg");
 	object-fit: cover;
 }
 
 #right {
-	content: url("images/la_jolla.jpg");
+	content: url("./images/la_jolla.jpg");
 	object-fit: cover;
 }
 
@@ -131,7 +130,7 @@ li {
 }
 
 #about_left {
-	content: url("images/sproul.jpg");
+	content: url("./images/sproul.jpg");
 	object-fit: cover;
 }
 
