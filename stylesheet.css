@@ -92,12 +92,12 @@ li {
 
 #left {
 	margin-left: 16%;
-	content: url("./images/boston.jpg");
+	content: url("./images/boston.JPG");
 	object-fit: cover;
 }
 
 #right {
-	content: url("./images/la_jolla.jpg");
+	content: url("./images/la_jolla.JPG");
 	object-fit: cover;
 }
 
@@ -130,7 +130,7 @@ li {
 }
 
 #about_left {
-	content: url("./images/sproul.jpg");
+	content: url("./images/sproul.JPG");
 	object-fit: cover;
 }
 
