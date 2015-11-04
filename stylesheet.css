@@ -9,8 +9,8 @@ body {
 }
 
 div {
-	font-family: "Lucida Grande";
-	font-weight: bold;
+	font-family: "Alegreya Sans", "sans serif";
+	font-weight: light;
 }
 
 #header {
@@ -22,8 +22,17 @@ div {
 	background-color: #d0dfff;
 }
 
+#header p {
+	font-weight: bold;
+	font-size: 240%;
+	text-indent: 13%;
+	margin: 1%;
+}
+
 a {
+	color: #494949;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:visited {
@@ -32,6 +41,16 @@ a:visited {
 
 a:hover {
 	color: black;
+}
+
+#navbar {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	background-color: #d0dfff;
+	width: 20%;
+	height: 100vh;
 }
 
 ul {
@@ -45,33 +64,75 @@ ul {
 li {
 	display: block;
 	color: #494949;
-	font-size: 1.1em;
+	font-weight: bold;
+	font-size: 140%;
 	padding-top: .2em;
 	padding-bottom: .2em;
 }
 
-#photo {
-	display: table;
+.photo {
+	display: block;
 	position: relative;
-	margin: 4% auto;
+	float: left;
 	text-align: center;
+	margin-bottom: 3%;
 	height: 11em;
 	width: 11em;
-	border: 1px solid black;
+	border: 1.5px solid black;
 	border-radius: 100%;
-	background: url("http://upe.berkeley.edu/media/profile_images/Soy%20-%20Courtney%20Vu.jpg");
+}
+
+#self {
+	height: 15em;
+	width: 15em;
+	margin-left: 14%;
+	margin-right: 14%;
+	content: url("http://upe.berkeley.edu/media/profile_images/Soy%20-%20Courtney%20Vu.jpg");
+	object-fit: cover;
+}
+
+#left {
+	margin-left: 16%;
+	content: url("images/boston.jpg");
+	object-fit: cover;
+}
+
+#right {
+	content: url("images/la_jolla.jpg");
+	object-fit: cover;
+}
+
+#content {
+	display: block;
+	position: relative;
+	width: 80%;
+	float: right;
 }
 
 .info_section {
 	display: block;
 	position: relative;
-	background-color: #dcffd4;
-	padding: 5% 10% 5% 15%;
+	background-color: #d8ffd9;
+	padding: 4% 7% 4% 6%;
 	border-top: 3px solid black;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 150%;
+}
+
+.blurb {
+	font-size: 120%;
 }
 
 #about_me {
 	text-align: right;
+}
+
+#about_left {
+	content: url("images/sproul.jpg");
+	object-fit: cover;
 }
 
 #projects {
