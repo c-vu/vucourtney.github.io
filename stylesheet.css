@@ -10,6 +10,7 @@ body {
 
 div {
 	font-family: "Alegreya Sans", "sans serif";
+	border: 1px dotted black;
 	font-weight: light;
 }
 
@@ -44,13 +45,10 @@ a:hover {
 }
 
 #navbar {
-	display: block;
 	position: relative;
 	float: left;
 	margin: 0;
 	background-color: #d0dfff;
-	width: 20%;
-	height: 100vh;
 }
 
 ul {
@@ -77,6 +75,7 @@ li {
 	text-align: center;
 	height: 11em;
 	width: 11em;
+	margin-bottom: 3%;
 	border: 1.5px solid black;
 	border-radius: 100%;
 }
