@@ -4,28 +4,30 @@
  */
 
 body {
-	background-color: #d0dfff;
+	/* background-color: #d0dfff; */
 	padding: 0;
 }
 
 div {
-	font-family: "Alegreya Sans", "sans serif";
+	font-family: "Gill Sans", "sans serif";
 	font-weight: light;
 }
 
 #header {
 	display: block;
 	position: relative;
+	width: 80%;
+	float: right;
 	text-align: center;
 	padding: 1%;
 	border: 0;
-	background-color: #d0dfff;
+	/* background-color: #d0dfff; */
 }
 
 #header p {
 	font-weight: bold;
 	font-size: 240%;
-	text-indent: 13%;
+	text-align: center;
 	margin: 1%;
 }
 
@@ -77,20 +79,26 @@ li {
 	margin-bottom: 3%;
 	border: 1.5px solid black;
 	border-radius: 100%;
+	opacity: .8
+}
+
+.photo:hover {
+	opacity: 1;
 }
 
 #self {
+	display: inline-block;
 	height: 15em;
 	width: 15em;
-	margin-left: 14%;
-	margin-right: auto;
+	margin-left: 17%;
 	content: url("http://upe.berkeley.edu/media/profile_images/Soy%20-%20Courtney%20Vu.jpg");
+	opacity: 1;
 	object-fit: cover;
 }
 
 #left {
-	margin-left: 16%;
 	content: url("./images/boston.JPG");
+	float: left;
 	object-fit: cover;
 }
 
@@ -110,7 +118,7 @@ li {
 .info_section {
 	display: block;
 	position: relative;
-	background-color: #d8ffd9;
+	/* background-color: #d8ffd9; */
 	padding: 4% 5% 4% 4%;
 	border-top: 3px solid black;
 }
