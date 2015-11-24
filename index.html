@@ -45,15 +45,22 @@
 			<div class = "info_section" id = "projects">
 				<a name = "projects"> </a>	
 				<p class = "title"> Projects </p>
-				<div class = "photo" id = "proj_right0"> <!-- logisim photo --> </div>
+				
+				<div class = "photo" id = "proj_right0"> <!-- pagerank photo --> </div>
+				<p class = "blurb_title"> PageRank: MapReduce </p>
+				<p class = "blurb"> Utilizing Python Spark, this program determines the relative popularity of websites. In order to do so, it takes in inputs giving probabilities that users will stay on a given site, randomly follow a link from their current site to a new site, request to access a previous site, or randomly go to a new site. <br> <br>
+
+				The algorithm works through a graph model that treates each webpage as a node and each link from page to page as a directed edge, using backedges to represent the user returning to a previous page. It then updates the relative weights of all sites in the given dataset, performing many iterations as the weights of sites are transferred based on user behavior probabilities. Heavier weights correspond to more popular pages and will be listed higher. </p>
+
+				<div class = "photo" id = "proj_right1"> <!-- logisim photo --> </div>
 				<p class = "blurb_title"> MIPS Assembler/Linker and CPU </p>
 				<p class = "blurb"> C program that parses MIPS pseudo-instructions and translates them into TAL assembly code and hexadecimal machine instructions. The linker (written in MIPS) turns machine instructions into an executable file by relocating symbols. <br> <br>
 
 				Created a virtual central processing unit that takes hexadecimal machine instructions and performs arithmetic, register writes, and memory writes to fully functionally execute MIPS instructions. Pipelined the CPU to increase performance. <br> </p>
 
-				<div class = "photo" id = "proj_right1"> <!-- data photo --> </div>
+				<div class = "photo" id = "proj_right2"> <!-- data photo --> </div>
 				<p class = "blurb_title"> Alphabet Sort and Autocomplete </p>
-				<p class = "blurb"> Java program that alphabetically sorts words in input files given a customizable alphabet. Uses the trie data structure to do so. <br> <br> Using this alphabet, it uses ternary search tries, priority queues, and data on word frequency to find top matches for user-inputted word prefixes (essentially giving autocomplete suggestions). </p>
+				<p class = "blurb"> Java program that alphabetically sorts words in input files given a customizable alphabet. Uses the trie data structure to do so. <br> <br> With this alphabet, it leverages ternary search tries, priority queues, and data on word frequency to find top matches for user-inputted word prefixes (essentially giving autocomplete suggestions). </p>
 			</div>
 
 			<div class = "info_section" id = "code">
