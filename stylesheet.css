@@ -138,12 +138,24 @@ li {
 }
 
 #about_me {
+	text-align: left;
+}
+
+#about_right {
+	content: url("./images/sproul.JPG");
+	float: right;
+	margin: 0% 2% 2% 1%;
+	object-fit: cover;
+}
+
+#work {
 	text-align: right;
 }
 
-#about_left {
-	content: url("./images/sproul.JPG");
-	margin-right: 2%;
+#work_left {
+	content: url("./images/drive.jpg");
+	float: left;
+	margin: -2% 2% 2% 0%;
 	object-fit: cover;
 }
 
@@ -154,9 +166,9 @@ li {
 	object-fit: cover;
 }
 
-#proj_right1 {
+#proj_left1 {
 	content: url("./images/cpu.PNG");
-	margin: 0 2% 2% 0%;
+	margin: 0% 2% 2% 0%;
 	object-fit: cover;
 }
 
@@ -182,54 +194,4 @@ li {
 
 #outside_cs {
 	text-align: left;
-}
-
-#outside_0 {
-	content: url("./images/ramen.jpg");
-	float: right;
-	margin: 1%;
-	object-fit: cover;
-}
-
-#outside_1 {
-	content: url("./images/bart.jpg");
-	float: right;
-	margin: 1%;
-	object-fit: cover;
-}
-
-#outside_2 {
-	content: url("./images/salmon.jpg");
-	float: right;
-	margin: 1%;
-	object-fit: cover;
-}
-
-#outside_3 {
-	content: url("./images/christmas.jpg");
-	float: right;
-	margin: 1%;
-	margin-right: 5%;
-	object-fit: cover;
-}
-
-#outside_4 {
-	content: url("./images/ice_cream.jpg");
-	float: right;
-	margin: 1%;
-	object-fit: cover;
-}
-
-#outside_5 {
-	content: url("./images/doge.jpg");
-	float: right;
-	margin: 1%;
-	object-fit: cover;
-}
-
-#outside_6 {
-	content: url("./images/sd_sea.jpg");
-	float: right;
-	margin: 0%;
-	object-fit: cover;
 }

@@ -17,8 +17,9 @@
 			<p> Courtney Vu </p>
 			<ul>
 				<li> <a href = "#about_me" class = "smoothScroll"> About Me </a> </li>
+				<li> <a href = "#work" class = "smoothScroll"> Work </a> </li>
 				<li> <a href = "#projects" class = "smoothScroll"> Projects </a> </li>
-				<li> <a href = "#code" class = "smoothScroll"> How I Code </a> </li>
+				<li> <a href = "#code" class = "smoothScroll"> Technical Details </a> </li>
 				<li> <a href = "#outside_cs" class = "smoothScroll"> Outside CS </a> </li>
 				<li> <a href = "#contact_me" class = "smoothScroll"> Contact Me </a> </li>
 				<li> <a href = "#top" class="smoothScroll"> Back to Top </a> </li>
@@ -27,19 +28,27 @@
 
 		<a name = "top"> </a>
 		<div id = "header">
-			<div class = "photo" id = "left"> <!-- cool photo --> </div>
+			<div class = "photo" id = "left"> <!-- left photo --> </div>
 			<div class = "photo" id = "self"> <!-- photo of me --> </div>
-			<div class = "photo" id = "right"> <!-- cool photo --> </div>
+			<div class = "photo" id = "right"> <!-- right photo --> </div>
 		</div>
 
 		<div id = "content">
 			<div class = "info_section" id = "about_me">
 				<a name = "about_me"> </a>
 				<p class = "title"> About Me </p>
-				<div class = "photo" id = "about_left"> <!-- Cal photo --> </div>
-				<p class = "blurb"> I'm currently in my second year as an undergrad at UC Berkeley, studying Computer Science (and maybe something else? tbd?). I like when things look nice, so I'm into learning about front-end development and UI/UX. Also into technology and how it can improve the human experience. <br> <br>
+				<div class = "photo" id = "about_right"> <!-- Cal photo --> </div>
+				<p class = "blurb"> I'm currently in my third year as an undergrad at UC Berkeley, majoring in Computer Science.  <br> <br>
 
-				I think customer service is interesting, particularly optimizations of processes, improvements in efficiency, and the personal interactions that machines can never replace. I also think the idea of improving the academic experience for students at such a large university is interesting. </p>
+				One of my passions is improving the educational experience for undergraduates at large public universities such as Berkeley. As a head Undergraduate Student Instructor for a 600 student (and growing) lower division CS course, I focus on understanding how our teaching staff can give each student opportunities to improve at problem solving and gain confidence. </p>
+			</div>
+
+			<div class = "info_section" id = "work">
+				<a name = "work"></a>
+				<p class = "title"> Work </p>
+				<div class = "photo" id = "work_left"> <!-- Google Drive photo --> </div>
+				<p class = "blurb_title"> Software Engineering Intern, Google </p>
+				<p class = "blurb"> As part of a Google Drive backend subteam, I contributed to a new Drive product launch targeting enterprise customers. I iteratively designed and implemented a feature for this new product, with goals of helping users to quickly locate relevant documents and optimizing performance for Google Drive backend. As part of this project, I helped improve querying infrastructure in Drive to ease the retrieval of documents that users search for.</p>
 			</div>
 
 			<div class = "info_section" id = "projects">
@@ -52,11 +61,11 @@
 
 				The algorithm works through a graph model that treates each webpage as a node and each link from page to page as a directed edge, using backedges to represent the user returning to a previous page. It then updates the relative weights of all sites in the given dataset, performing many iterations as the weights of sites are transferred based on user behavior probabilities. Heavier weights correspond to more popular pages and will be listed higher. </p>
 
-				<div class = "photo" id = "proj_right1"> <!-- logisim photo --> </div>
+				<div class = "photo" id = "proj_left1"> <!-- logisim photo --> </div>
 				<p class = "blurb_title"> MIPS Assembler/Linker and CPU </p>
 				<p class = "blurb"> C program that parses MIPS pseudo-instructions and translates them into TAL assembly code and hexadecimal machine instructions. The linker (written in MIPS) turns machine instructions into an executable file by relocating symbols. <br> <br>
 
-				Created a virtual central processing unit that takes hexadecimal machine instructions and performs arithmetic, register writes, and memory writes to fully functionally execute MIPS instructions. Pipelined the CPU to increase performance. <br> </p>
+				Created a virtual central processing unit that takes hexadecimal machine instructions and performs arithmetic, register writes, and memory writes to fully execute MIPS instructions. Pipelined the CPU to improve performance. <br> </p>
 
 				<div class = "photo" id = "proj_right2"> <!-- data photo --> </div>
 				<p class = "blurb_title"> Alphabet Sort and Autocomplete </p>
@@ -65,34 +74,27 @@
 
 			<div class = "info_section" id = "code">
 				<a name = "code"> </a>
-				<p class = "title"> How I Code </p>
+				<p class = "title"> Technical Details </p>
 				<div class = "photo" id = "code_0"> <!-- code photo --> </div>
-				<p class = "blurb"> Check out my <a href = "https://github.com/vucourtney"> GitHub </a> account here! <br> <br>
+				<p class = "blurb"> Check out my <a href = "https://github.com/vucourtney"> GitHub </a> account (including this website's source code) here! <br> <br>
 
-				My programming languages of choice are Python and Java, but I'm also very adept at C. <br> <br>
+				I have had the most experience in Python and Java, as I've worked with both in corporate codebases and completed many side projects in both languages. <br> <br>
 
-				Proficient in HTML/CSS and Javascript but still learning (such as through improving this website). Also proficient in Latex. <br> <br>
+				I have worked on multiple projects for Android mobile and smartwatch development, focusing primarily on Human Computer Interaction. This includes designing UIs, creating interfaces on the front end, and implementing application functionality on the back end.
 
-				I'm always looking to learn more... </p>
+				I am also proficient in C, HTML/CSS, and Javascript but still learning. <br> <br> </p>
 			</div>
 
 			<div class = "info_section" id = "outside_cs">
 				<a name = "outside_cs"> </a>
 				<p class = "title"> Outside CS </p>
-				<div class = "photo" id = "outside_0"> <!-- ramen photo --> </div>
-				<div class = "photo" id = "outside_1"> <!-- bart photo --> </div>
-				<div class = "photo" id = "outside_2"> <!-- salmon photo --> </div>
-				<div class = "photo" id = "outside_3"> <!-- christmas photo --> </div>
-				<div class = "photo" id = "outside_4"> <!-- ice cream photo --> </div>
-				<div class = "photo" id = "outside_5"> <!-- doge photo --> </div>
-				<div class = "photo" id = "outside_6"> <!-- SD ocean photo --> </div>
-				<p class = "blurb"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br> (Placeholder photos? Not sure what goes here) </p>
+				<p class = "blurb">  <br> <br> </p>
 			</div>
 
 			<div class = "info_section" id = "contact_me">
 				<a name = "contact_me"> </a>
 				<p class = "title"> Contact Me </p>
-				<p class = "blurb"> If you would like to contact me about internship opportunities, my personal projects, or anything I'm involved in, feel free to <a href="mailto: vucourtney@berkeley.edu"> email me </a>. If you would like to learn more about me, check out my <a href = https://www.linkedin.com/pub/courtney-vu/108/728/982> LinkedIn </a> or download a copy of my <a href = "docs/CourtneyVuResume.pdf"> resume </a>. </p>
+				<p class = "blurb"> If you would like to contact me about career opportunities, my personal projects, or anything I'm involved in, feel free to <a href="mailto: vucourtney@berkeley.edu"> email me </a>. If you would like to learn more about me, check out my <a href = https://www.linkedin.com/pub/courtney-vu/108/728/982> LinkedIn </a> or download a copy of my <a href = "docs/CourtneyVuResume.pdf"> resume </a>. </p>
 			</div>
 		</div>
 
