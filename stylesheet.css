@@ -160,14 +160,14 @@ li {
 }
 
 #proj_right0 {
-	content: url("./images/pagerank.png");
+	content: url("./images/electme.png");
 	float: right;
 	margin: 5% 2% 2% 1%;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 #proj_left1 {
-	content: url("./images/cpu.PNG");
+	content: url("./images/pagerank.png");
 	margin: 0% 2% 2% 0%;
 	object-fit: cover;
 }

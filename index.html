@@ -38,9 +38,9 @@
 				<a name = "about_me"> </a>
 				<p class = "title"> About Me </p>
 				<div class = "photo" id = "about_right"> <!-- Cal photo --> </div>
-				<p class = "blurb"> I'm currently in my third year as an undergrad at UC Berkeley, majoring in Computer Science.  <br> <br>
+				<p class = "blurb"> I'm currently in my third year as an undergrad at UC Berkeley, majoring in Computer Science. What intrigues me most about technology is its transformative nature, the fact that we can revolutionize the way people travel, shop, eat, work, find information, and communicate. In my career, I hope to do more than just meet deadlines or cut costs or increase profits. I hope to contribute to a shift in the way that we as humans approach our daily lives.   <br> <br>
 
-				One of my passions is improving the educational experience for undergraduates at large public universities such as Berkeley. As an Undergraduate Student Instructor for a 700 student (and growing) lower division CS course, I focus on understanding how our teaching staff can give each student opportunities to improve at problem solving and gain confidence. </p>
+				One of my passions is improving the educational experience for undergraduates at large public universities such as Berkeley. As an Undergraduate Student Instructor for a 700 student (and growing) lower division CS course, I focus on understanding how our teaching staff can give each student opportunities to improve at problem solving and gain confidence. Through discussion sections, office hours, creating problems, and other resources, my primary goal is to make learning less intimidating, more accessible, and more personalized than it tends to be in a large lecture hall. </p>
 			</div>
 
 			<div class = "info_section" id = "work">
@@ -56,18 +56,22 @@
 			<div class = "info_section" id = "projects">
 				<a name = "projects"> </a>	
 				<p class = "title"> Projects </p>
-				
-				<div class = "photo" id = "proj_right0"> <!-- pagerank photo --> </div>
+
+				<div class = "photo" id = "proj_right0"> <!-- electme photo --> </div>
+				<p class = "blurb_title"> ElectMe </p>
+				<p class = "blurb"> Click <a href = "https://github.com/cs160-berkeley/prog-02-represent-vucourtney"> here </a> to see the GitHub repository for this project, including a video demo. Click <a href = "docs/electmeDocs.pdf"> here </a> for documentation I wrote about my design decisions and the user flow on each screen. <br> <br>
+
+				Using Java and XML, I created an Android application for smartphone and smartwatch that uses location data (either from the device's GPS or a user inputted ZIP code) to look up the user's Congressional district. Using the <a href = "https://sunlightlabs.github.io/congress/"> Sunlight Congress API </a> and <a href = "https://dev.twitter.com/overview/api"> Twitter API </a>, the app provides profiles for the district's legislators in the Senate and House of Representatives that include their political party, email address, committee involvements and recent Tweets. The app also parses a JSON file to display the district's vote breakdown from the 2012 presidential election, in which President Barack Obama was reelected. <br> <br>
+
+				In creating this application, I learned to use Android Studio and test my progress on an Android phone and smartwatch. The primary challenge was designing an intuitive, easy-to-use applicaiton for two different devices with slightly different purposes. For example, the watch version of the app featured larger buttons and fewer details, to accommodate the smaller screen and user's desire for quickness and mobility. In contrast, the phone version offered extra details, such as the committees that the legislators are involved in and recent bills they sponsored. I learned the design standards for Android applications and adapted to the expectations that phone users have when using their apps. <br> <br>
+
+				Through extensive prototyping and user testing, I realized that what may be obvious to a developer may be confusing and frustrating for a user. I also understood the additional challenge of implementing a design vision, even after the design has been iteratively improved. This was the first project that I worked on from conceptualization and prototyping all the way to a tested finished product. <br> <br> </p>
+
+				<div class = "photo" id = "proj_left1"> <!-- pagerank photo --> </div>
 				<p class = "blurb_title"> PageRank: MapReduce </p>
 				<p class = "blurb"> Utilizing Python Spark, this program determines the relative popularity of websites. In order to do so, it takes in inputs giving probabilities that users will stay on a given site, randomly follow a link from their current site to a new site, request to access a previous site, or randomly go to a new site. <br> <br>
 
-				The algorithm works through a graph model that treates each webpage as a node and each link from page to page as a directed edge, using backedges to represent the user returning to a previous page. It then updates the relative weights of all sites in the given dataset, performing many iterations as the weights of sites are transferred based on user behavior probabilities. Heavier weights correspond to more popular pages and will be listed higher. </p>
-
-				<div class = "photo" id = "proj_left1"> <!-- logisim photo --> </div>
-				<p class = "blurb_title"> MIPS Assembler/Linker and CPU </p>
-				<p class = "blurb"> C program that parses MIPS pseudo-instructions and translates them into TAL assembly code and hexadecimal machine instructions. The linker (written in MIPS) turns machine instructions into an executable file by relocating symbols. <br> <br>
-
-				Created a virtual central processing unit that takes hexadecimal machine instructions and performs arithmetic, register writes, and memory writes to fully execute MIPS instructions. Pipelined the CPU to improve performance. <br> </p>
+				The algorithm works through a graph model that treates each webpage as a node and each link from page to page as a directed edge, using backedges to represent the user returning to a previous page. It then updates the relative weights of all sites in the given dataset, performing many iterations as the weights of sites are transferred based on user behavior probabilities. Heavier weights correspond to more popular pages and will be listed higher. <br> <br> </p>
 
 				<div class = "photo" id = "proj_right2"> <!-- data photo --> </div>
 				<p class = "blurb_title"> Alphabet Sort and Autocomplete </p>
@@ -80,17 +84,17 @@
 				<div class = "photo" id = "code_0"> <!-- code photo --> </div>
 				<p class = "blurb"> Check out my <a href = "https://github.com/vucourtney"> GitHub </a> account (including this website's source code) here! <br> <br>
 
-				I have had the most experience in Python and Java, as I've worked with both in corporate codebases and completed many side projects in both languages. <br> <br>
+				See my resume <a href = "#contact_me" class = "smoothScroll"> below </a> for details on languages/ software I'm comfortable using. <br> <br> 
 
-				I have worked on multiple projects for Android mobile and smartwatch development, focusing primarily on Human Computer Interaction. This includes designing UIs, creating interfaces on the front end, and implementing application functionality on the back end.
-
-				I am also proficient in C, HTML/CSS, and Javascript but still learning. <br> <br> </p>
+				I have also worked on multiple projects for Android mobile and smartwatch development, focusing primarily on Human Computer Interaction. This includes designing UIs, creating interfaces on the front end, and implementing application functionality on the back end. <br> <br> </p>
 			</div>
 
 			<div class = "info_section" id = "outside_cs">
 				<a name = "outside_cs"> </a>
 				<p class = "title"> Outside CS </p>
-				<p class = "blurb">  <br> <br> </p>
+				<p class = "blurb"> I grew up in Irvine, California, . In my free time, I do all the typical things that college students say they like to do: sleep, go to the pool, listen to music, and consume pop culture. <br> <br>
+
+				At Cal, I am involved in student government, known as the ASUC. I've worked with various elected officials to improve students' experiences on campus through projects such as a laptop rental program, a 5K run to fundraise for mental health awareness, and a survey to collect and disburse information on Berkeley's city housing crisis. <br> <br> </p>
 			</div>
 
 			<div class = "info_section" id = "contact_me">
