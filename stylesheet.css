@@ -149,7 +149,14 @@ li {
 }
 
 #work {
-	text-align: right;
+	text-align: left;
+}
+
+#work_right {
+	content: url("./images/play_store.png");
+	float: right;
+	margin: -2% 0% 2% 2%;
+	object-fit: cover;
 }
 
 #work_left {
@@ -183,7 +190,7 @@ li {
 }
 
 #code {
-	text-align: right;
+	text-align: left;
 }
 
 #code_0 {
